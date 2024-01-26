@@ -4,43 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ecf8847c-15d7-42ca-83e6-557b0b699f0c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Inventory-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Inventory-service/src/main/java/com/programmingtechie/inventoryservice/Entities/Inventory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Inventory-service/src/main/java/com/programmingtechie/inventoryservice/InventoryServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Inventory-service/src/main/java/com/programmingtechie/inventoryservice/Repositories/InventoryRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Inventory-service/src/main/java/com/programmingtechie/inventoryservice/RestControllers/InventoryRestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Inventory-service/src/main/java/com/programmingtechie/inventoryservice/Services/InventoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Inventory-service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Inventory-service/src/test/java/com/programmingtechie/inventoryservice/InventoryServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Order-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Order-service/src/main/java/com/programmingtechie/orderservice/DTOs/OrderLineItemsDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Order-service/src/main/java/com/programmingtechie/orderservice/DTOs/OrderRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Order-service/src/main/java/com/programmingtechie/orderservice/Entities/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Order-service/src/main/java/com/programmingtechie/orderservice/Entities/OrderLineItems.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Order-service/src/main/java/com/programmingtechie/orderservice/OrderServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Order-service/src/main/java/com/programmingtechie/orderservice/Repositories/OrderRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Order-service/src/main/java/com/programmingtechie/orderservice/RestControllers/OrderRestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Order-service/src/main/java/com/programmingtechie/orderservice/Services/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Order-service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Order-service/src/test/java/com/programmingtechie/orderservice/OrderServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Product-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Product-service/src/main/java/com/programmingtechie/productservice/DTOs/ProductRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Product-service/src/main/java/com/programmingtechie/productservice/DTOs/ProductResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Product-service/src/main/java/com/programmingtechie/productservice/Entities/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Product-service/src/main/java/com/programmingtechie/productservice/ProductServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Product-service/src/main/java/com/programmingtechie/productservice/Repository/ProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Product-service/src/main/java/com/programmingtechie/productservice/RestController/ProductRestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Product-service/src/main/java/com/programmingtechie/productservice/Services/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Product-service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Product-service/src/test/java/com/programmingtechie/productservice/ProductServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="ecf8847c-15d7-42ca-83e6-557b0b699f0c" name="Changes" comment="Initial Commit">
+      <change afterPath="$PROJECT_DIR$/Inventory-service/src/main/java/com/programmingtechie/inventoryservice/DTOs/InventoryResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Order-service/src/main/java/com/programmingtechie/orderservice/Config/WebClientConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Order-service/src/main/java/com/programmingtechie/orderservice/DTOs/InventoryResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inventory-service/src/main/java/com/programmingtechie/inventoryservice/InventoryServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Inventory-service/src/main/java/com/programmingtechie/inventoryservice/InventoryServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inventory-service/src/main/java/com/programmingtechie/inventoryservice/Repositories/InventoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Inventory-service/src/main/java/com/programmingtechie/inventoryservice/Repositories/InventoryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inventory-service/src/main/java/com/programmingtechie/inventoryservice/RestControllers/InventoryRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Inventory-service/src/main/java/com/programmingtechie/inventoryservice/RestControllers/InventoryRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inventory-service/src/main/java/com/programmingtechie/inventoryservice/Services/InventoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Inventory-service/src/main/java/com/programmingtechie/inventoryservice/Services/InventoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Order-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order-service/src/main/java/com/programmingtechie/orderservice/Services/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Order-service/src/main/java/com/programmingtechie/orderservice/Services/OrderService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +52,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "17",
     "last_opened_file_path": "C:/Users/Wisdom donald-ase/Desktop/RunGroop-Java-master/Microservices_new",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -88,13 +63,18 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.programmingtechie.orderservice.DTOs" />
+    </key>
+  </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn clean verify" />
       <command value="mvn clean install" />
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.InventoryServiceApplication">
+  <component name="RunManager" selected="Spring Boot.OrderServiceApplication">
     <configuration name="InventoryServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="Inventory-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.programmingtechie.inventoryservice.InventoryServiceApplication" />
@@ -126,8 +106,17 @@
       <option name="presentableId" value="Default" />
       <updated>1706199394269</updated>
       <workItem from="1706199395291" duration="15000" />
-      <workItem from="1706260810030" duration="1294000" />
+      <workItem from="1706260810030" duration="5516000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial Commit">
+      <option name="closed" value="true" />
+      <created>1706262168005</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1706262168005</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,5 +132,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
   </component>
 </project>
